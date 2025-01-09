@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagos State Charting Database</title>
+    <link rel="stylesheet" href="Chartingpage.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="logo.png" alt="DCTR Logo" class="logo">
+            <span class="brand">DCTR</span>
+        </div>
+        <div class="nav-center">
+            <a href="#" class="active">Main</a>
+            <a href="#">About</a>
+            <a href="#">Payment</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-right">
+            <a href="#" class="login-btn">Login</a>
+            <img src="/images/user.png" alt="User" class="user-icon">
+        </div>
+    </nav>
+
+    <main>
+        <div class="content">
+            <h1>Welcome to Lagos State<br>Charting Database</h1>
+            <p class="subtitle">We've made it easy to check the status of your land.<br>Just enter the co-ordinates here</p>
+            
+            <div class="coordinate-inputs">
+                <div class="input-group">
+                    <label for="latitude">Latitude/Easting</label>
+                    <input type="text" id="latitude">
+                </div>
+                <div class="input-group">
+                    <label for="longitude">Longitude/Northing</label>
+                    <input type="text" id="longitude">
+                </div>
+            </div>
+
+            <button class="status-btn">Get Status</button>
+        </div>
+    </main>
+</body>
+</html>
